@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Make sure your coffee is as fresh as it can be.",
+        "date": "November 1, 2022",
+        "name": "cortada",
+        "id": 0,
+        "image": "./public/blogs/Blog-gallery-img1.jpg.png"
+    },
+    {
+        "title": "The Best Coffee Advent Calendars of this year",
+        "date": "November 2, 2022",
+        "name": "cortada",
+        "id": 1,
+        "image": "./public/blogs/Blog-gallery-img2.jpg.png"
+    },
+    {
+        "title": "The Most Common Way People Drink Noir Café.",
+        "date": "November 2, 2022",
+        "name": "cortada",
+        "id": 2,
+        "image": "./public/blogs/Blog-gallery-img3.jpg.png"
+    },
+    {
+        "title": "Coffee Beans Prepared In Four Different Ways.",
+        "date": "November 2, 2022",
+        "name": "cortada",
+        "id": 3,
+        "image": "./public/blogs/Blog-gallery-img4.jpg.png"
+    },
+    {
+        "title": "The Baristan Kettle is a Beacon for Preparation.",
+        "date": "November 2, 2022",
+        "name": "cortada",
+        "id": 4,
+        "image": "./public/blogs/Blog-gallery-img5.jpg.png"
+    },
+    {
+        "title": "The World’s Best Coffee Tours: Brasil, Columbia.",
+        "date": "November 2, 2022",
+        "name": "cortada",
+        "id": 5,
+        "image": "./public/blogs/Blog-gallery-img6.jpg.png"
+    }
+]

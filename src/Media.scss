@@ -1,0 +1,223 @@
+@media screen and (max-width: 960px) {
+
+    .cursor{
+        display:none;
+    }
+
+    .navbar{
+        
+        .menuButton{
+            display:block;
+        }
+
+        .nav_items{
+            display:none;
+        }
+
+        img{
+            width: 90%;
+            padding:0
+        }
+
+        .cart{
+            img{
+                padding:0;
+            }
+        }
+    }
+
+
+    .header{
+        grid-template-columns: 1fr;
+
+        .enjoy_block{
+
+            h1{
+                margin:calc(var(--font-size)* 5) auto;
+            }
+        }
+    }
+
+
+    .organic{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .coffees{
+        display:flex;
+        flex-direction: column;
+
+
+        .coffees_content{
+            flex-direction: column;
+
+            .coffee_item{
+                padding:0;
+
+                
+
+            img{
+                max-width: 100%;
+            }
+            }
+        }
+    }
+
+    
+    .reviews{
+        flex-direction: column;
+
+        .reviews_block{
+            padding-block:4rem;
+        }
+    }
+
+
+
+    .location_info{
+        flex-direction: column;
+        width: 100%;
+        padding:1rem;
+
+        .location_info__inner{
+
+            button{
+                padding: .5rem 1rem;
+            }
+        }
+        
+    }
+
+    .vertical__text{
+        padding:0rem;   
+    }
+
+
+    .products{
+
+        .products_inner{
+
+            .new{
+        
+                &::after{
+                    content: 'new';
+                    width: 50px;
+                    height: 25px;
+                    position: absolute;
+                    padding:.1rem;
+                    top:5%;
+                    left:50%;
+                    background-color: #FBED81;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: var(--anton-font);
+                    text-transform: uppercase;
+                }
+            }
+
+            .sold{
+    
+                &::after{
+                    content: 'sold';
+                    width: 50px;
+                    height: 25px;
+                    position: absolute;
+                    padding:.1rem;
+                    top:5%;
+                    left:50%;
+                    background-color: #1D1D1B;
+                    color:white;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: var(--anton-font);
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+
+
+
+    .chars{
+        flex-direction: column;
+        overflow: hidden;
+        width: 100%;
+
+        .chars_showcase{
+            padding:1rem;
+
+            &::after{
+                top:0;
+                left:50%;
+            }
+        }
+
+        .chars_about{
+
+            .chars_card{
+                padding:1rem;
+            }
+        }
+
+    }
+    
+    .reserve_table{
+
+        .table{
+
+            form{
+                flex-direction: column;
+                
+            }
+        }
+    }
+
+
+    .team{
+        flex-wrap: wrap;
+    }
+
+    .followUs{
+        overflow: hidden;
+        
+        .followUs_inner{
+            grid-template-columns: repeat(2, 50%);
+        }
+    }
+
+
+    .blog{
+        display:flex;
+        flex-direction: column;
+        padding:1rem;
+
+        .blog_header{
+            width: 100%;
+        }
+    
+        .blog_posts{
+            width: 100%;
+
+            .blog_card{
+                display:flex;
+                flex-direction: column;
+                gap:2rem;
+                padding-block:1rem;
+                
+            }
+        }
+        
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+    .coffees{
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
