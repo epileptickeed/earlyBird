@@ -171,6 +171,23 @@
       padding: 0;
     }
   }
+
+  .ourCoffee {
+    flex-direction: column;
+
+    .coffee_menu {
+      padding: 1rem;
+      width: 100%;
+    }
+
+    .coffee_item {
+      gap: 2rem;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
 }
 
 @media screen and (max-width: 1400px) {
